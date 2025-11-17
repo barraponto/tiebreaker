@@ -4,10 +4,16 @@ generate-database:
     qsv to sqlite data/games.sqlite data/games.csv
     rm data/games.csv
 
+serve-app:
+    uv run --env-file .env streamlit run main.py
+
 [working-directory: './blog']
 generate-post gameid title:
     uv run nikola new_post -t "{{title}}" --format markdown --import template.markdown posts/{{gameid}}.md
 
 [working-directory: './blog']
-generate-site:
+generate-blog:
     uv run nikola build
+
+serve-blog:
+    uv run nikola serve
