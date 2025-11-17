@@ -7,4 +7,5 @@ games = Table(
     Column("id", BigInteger),
     Column("yearpublished", BigInteger),
     Column("name", Text),
+    Column("is_expansion", BigInteger),
 )

@@ -12,7 +12,10 @@ class Repository:
 
     def find_game_by_name(self, name: str) -> list[Game]:
         statement = (
-            select(games).where(func.lower(games.c.name).contains(name)).limit(10)
+            select(games)
+            .where(func.lower(games.c.name).contains(name))
+            .where(games.c.is_expansion == 0)
+            .limit(10)
         )
 
         with self.engine.connect() as connection:
