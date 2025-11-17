@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import httpx
 from pydantic import BaseModel
 
@@ -5,6 +7,7 @@ from pydantic import BaseModel
 class BGGThread(BaseModel):
     id: str
     subject: str
+    comments: list[BGGComment] = []
 
 
 class BGGComment(BaseModel):
@@ -55,3 +58,9 @@ class BoardGameGeek:
             )
             for item in response.json().get("articles", [])[:6]
         ]
+
+    def load_game_reviews(self, game_id: int) -> list[BGGThread]:
+        threads = self.get_bgg_threads(game_id)
+        for thread in threads[:3]:
+            thread.comments = self.get_bgg_thread_content(thread.id)
+        return threads[:3]
