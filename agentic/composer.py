@@ -18,6 +18,7 @@ def build_composer_agent() -> Runnable[ComposerState, AgentState[ReviewPost]]:
     system_prompt = SystemMessage("""
     You are a board game content creator looking to write a review for a board game.
     Based on what you have been told, write a review for the board game.
+    Make sure to use markdown formatting for the review.
     """)
     human_prompt = HumanMessagePromptTemplate.from_template(
         template="""
@@ -29,6 +30,7 @@ def build_composer_agent() -> Runnable[ComposerState, AgentState[ReviewPost]]:
             </summary-{{loop.index}}>
 
         {% endfor %}
+        Make sure to use markdown formatting for the review.
         """.strip(),
         template_format="jinja2",
     )
