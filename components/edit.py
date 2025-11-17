@@ -12,6 +12,12 @@ def edit_review():
         game: Game = game_query.get("result")
 
         with st.form("review_editor"):
+            st.markdown("""
+            Edit the review for the selected board game.
+
+            You can edit the title and the body of the review.
+            Once you are happy with the review, click the "Save" button to save the review.
+            """)
             _ = st.text_input("Title", value=review.title, key="review_title")
             _ = st.text_area(
                 "Body", value=review.body, key="review_body", height="content"
