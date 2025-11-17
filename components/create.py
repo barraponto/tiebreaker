@@ -20,5 +20,5 @@ def create_review(repo: Repository, app: App):
     if st.session_state.get("add_game"):
         with st.spinner("Generating review..."):
             review = app.generate_review(game)
-            st.title(review.title)
-            st.write(review.body)
+            st.session_state.update({"review": review})
+            st.success("Review generated successfully")

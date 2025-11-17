@@ -1,4 +1,5 @@
 from components.create import create_review
+from components.edit import edit_review
 from resources.app import get_app
 from resources.repository import get_repository
 from settings import Settings
@@ -13,3 +14,4 @@ repo = get_repository(settings)
 """
 
 create_review(repo, app)
+edit_review()

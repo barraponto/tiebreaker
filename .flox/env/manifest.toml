@@ -21,6 +21,7 @@ commitizen.pkg-path = "commitizen"
 pre-commit.pkg-path = "pre-commit"
 qsv.pkg-path = "qsv"
 just.pkg-path = "just"
+hugo.pkg-path = "hugo"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
