@@ -6,11 +6,17 @@
       "commitizen": {
         "pkg-path": "commitizen"
       },
+      "just": {
+        "pkg-path": "just"
+      },
       "pre-commit": {
         "pkg-path": "pre-commit"
       },
       "python313": {
         "pkg-path": "python313"
+      },
+      "qsv": {
+        "pkg-path": "qsv"
       },
       "uv": {
         "pkg-path": "uv"
@@ -140,6 +146,138 @@
       "outputs": {
         "dist": "/nix/store/f442s56pp31nbfbbfslh2dbbk81k4as5-python3.13-commitizen-4.9.1-dist",
         "out": "/nix/store/l943ipp8nfz7h0cplk5yzhv22xzqc8hx-python3.13-commitizen-4.9.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/pj6kba4vhrx65cy4y391ag77v793khyb-just-1.43.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "just-1.43.0",
+      "pname": "just",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T16:41:31.555530Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.43.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/lzb4crbj9y9w3vi6y9sfs2n3a8gw3gmg-just-1.43.0-doc",
+        "man": "/nix/store/c70qay60v020z4rcrs1j53l2ndi0zlv1-just-1.43.0-man",
+        "out": "/nix/store/pgg86cchv83lgxj5fsblqrqndsl719vs-just-1.43.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/avyk9vcbw7jgz2r5l5za2dlca11dyv1p-just-1.43.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "just-1.43.0",
+      "pname": "just",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T17:18:46.977366Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.43.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/5fazc964q4zs23ljyh20s1bj64svrx8f-just-1.43.0-doc",
+        "man": "/nix/store/w8cxkhvz00lwhl1jyfgjhryf1cs4qhli-just-1.43.0-man",
+        "out": "/nix/store/fqwkhl50b54bq5j314isbydfkrn6bs4a-just-1.43.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/wxh4v5nkimzbsmkb56xrlsyllkl3vgdc-just-1.43.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "just-1.43.0",
+      "pname": "just",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T17:52:32.161954Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.43.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/4mnhz5cl811c22lz6vfcwib3p821cawv-just-1.43.0-doc",
+        "man": "/nix/store/n9v71kq77jpvcnbmdmkciz745yxyjva8-just-1.43.0-man",
+        "out": "/nix/store/gybj2xmsb4bx7b8iigdvh09gh4bl2pbx-just-1.43.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/1k6qbqhpgffvkzm24il40abzl19l9brh-just-1.43.0.drv",
+      "description": "Handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "just-1.43.0",
+      "pname": "just",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T18:31:59.002010Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.43.0",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/zrjqzsxrgv0y3wqfgakiik9w7h9wf79v-just-1.43.0-doc",
+        "man": "/nix/store/2r49ca21wwc6dxkzj5r9g5gyg8l5kdg6-just-1.43.0-man",
+        "out": "/nix/store/xjcvp6n4ky07gjsw56vcg932hkyp0xxg-just-1.43.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -386,6 +524,126 @@
       "outputs": {
         "debug": "/nix/store/chdb2f0y98yl8681gq8yj9i0yai6kpla-python3-3.13.9-debug",
         "out": "/nix/store/7gl4khq26h625mpqzkiiqsify3hclar1-python3-3.13.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qsv",
+      "broken": false,
+      "derivation": "/nix/store/bdfrvzp89v0s224mzpwqw88ckfdy2lyc-qsv-7.1.0.drv",
+      "description": "CSVs sliced, diced & analyzed",
+      "install_id": "qsv",
+      "license": "[ MIT, Unlicense ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "qsv-7.1.0",
+      "pname": "qsv",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T16:42:37.494630Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "7.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hln7hbymwa3q72lj6bigjh8pxzcpa2cz-qsv-7.1.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qsv",
+      "broken": false,
+      "derivation": "/nix/store/3m9md2q4l0jg7za00m76zz4szp8yk77d-qsv-7.1.0.drv",
+      "description": "CSVs sliced, diced & analyzed",
+      "install_id": "qsv",
+      "license": "[ MIT, Unlicense ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "qsv-7.1.0",
+      "pname": "qsv",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T17:20:16.634019Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "7.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/whcr5p8n34vlq0jia88qj4znga5plicw-qsv-7.1.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qsv",
+      "broken": false,
+      "derivation": "/nix/store/ah44gyirvblr5rbrnj9yq5063scldkm9-qsv-7.1.0.drv",
+      "description": "CSVs sliced, diced & analyzed",
+      "install_id": "qsv",
+      "license": "[ MIT, Unlicense ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "qsv-7.1.0",
+      "pname": "qsv",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T17:53:37.439167Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "7.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/icsdvv1dnpspf90j7g3rzs7z464lb310-qsv-7.1.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qsv",
+      "broken": false,
+      "derivation": "/nix/store/8kmfxmkx7n2yrz1xkfdv98mwd4bg9lwg-qsv-7.1.0.drv",
+      "description": "CSVs sliced, diced & analyzed",
+      "install_id": "qsv",
+      "license": "[ MIT, Unlicense ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "name": "qsv-7.1.0",
+      "pname": "qsv",
+      "rev": "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
+      "rev_count": 895122,
+      "rev_date": "2025-11-12T20:02:36Z",
+      "scrape_date": "2025-11-14T18:33:35.196036Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "7.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/rs4bwypjp1img6dkiz8c9lvsisgvim15-qsv-7.1.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
